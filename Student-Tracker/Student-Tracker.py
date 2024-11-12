@@ -18,7 +18,6 @@ class Performancetracker_class(Student):
     def add_student(self, student):
         self.dict_student.append(student)  
 
-    
     def calculate_class_average(self):
         try:
             total = 0
